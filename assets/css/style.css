@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#0f172a;
+
+    color:#fff;
+
+}
+
+.navbar{
+
+    background:#111827;
+
+    padding:15px 0;
+
+}
+
+.navbar-brand{
+
+    color:#22c55e;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    color:white;
+
+    margin-left:20px;
+
+    font-weight:500;
+
+}
+
+.nav-link:hover{
+
+    color:#22c55e;
+
+}
