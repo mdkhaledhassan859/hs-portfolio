@@ -22,9 +22,7 @@ body{
 
 .navbar{
 
-    background:#111827;
-
-    padding:15px 0;
+    background:var(--bg);
 
 }
 
