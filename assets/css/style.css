@@ -146,3 +146,54 @@ body{
     box-shadow:0 0 40px rgba(34,197,94,.25);
 
 }
+.stats{
+
+    margin-top:-70px;
+
+    position:relative;
+
+    z-index:10;
+
+}
+
+.stat-card{
+
+    background:#1e293b;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    border:1px solid #334155;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#22c55e;
+
+}
+
+.stat-card h2{
+
+    color:#22c55e;
+
+    font-size:36px;
+
+    font-weight:700;
+
+}
+
+.stat-card p{
+
+    color:#cbd5e1;
+
+    margin-top:10px;
+
+}
