@@ -1,0 +1,32 @@
+@media(max-width:768px){
+
+    .nav-menu{
+
+        position:fixed;
+        top:80px;
+        left:-100%;
+
+        width:100%;
+
+        background:var(--surface);
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:2rem;
+
+        transition:.3s;
+    }
+
+    .nav-menu.active{
+
+        left:0;
+    }
+
+    .menu-toggle{
+
+        display:block;
+    }
+
+}
