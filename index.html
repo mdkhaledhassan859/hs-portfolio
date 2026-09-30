@@ -2,137 +2,120 @@
 <html lang="en">
 
 <head>
-
+    <!-- Meta -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>
-        MD. Khaled Hassan | Senior Software Engineer
-    </title>
+    <title>MD. Khaled Hassan | Senior Software Engineer</title>
 
     <meta name="description"
-          content="Senior Software Engineer specializing in Laravel, ASP.NET, REST APIs, and Application Security.">
+        content="Professional Portfolio of MD. Khaled Hassan - Senior Software Engineer specializing in Laravel, ASP.NET, REST API Development, and Application Security.">
 
-    <!-- Google Font -->
+    <meta name="keywords"
+        content="Laravel, ASP.NET MVC, REST API, Application Security, Penetration Testing, Software Engineer, Portfolio">
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <meta name="author" content="MD. Khaled Hassan">
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
+        rel="stylesheet">
 
     <!-- Bootstrap -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- CSS -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet"
-          href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
 
 </head>
 
 <body>
-      <nav class="navbar navbar-expand-lg fixed-top">
+
+    <!-- ==========================
+         Header
+    =========================== -->
+
+    <header>
+
+<nav class="navbar navbar-expand-lg fixed-top">
 
     <div class="container">
 
-        <a class="navbar-brand"
-           href="#">
+        <!-- Brand -->
 
-            KH
+        <a class="navbar-brand" href="index.html">
+
+            <img src="assets/images/logo.svg"
+                 alt="KH Logo"
+                 class="brand-logo">
+
+            <div class="brand-text">
+
+                <span class="brand-name">
+                    MD. Khaled Hassan
+                </span>
+
+                <small class="brand-role">
+                    Backend & API Specialist
+                </small>
+
+            </div>
 
         </a>
 
+        <!-- Mobile Toggle -->
+
         <button class="navbar-toggler"
+                type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#menu">
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
+        <!-- Navigation -->
+
         <div class="collapse navbar-collapse"
-             id="menu">
+             id="navbarMenu">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-
-                    <a href="#home"
-                       class="nav-link">
-
-                        Home
-
-                    </a>
-
+                    <a class="nav-link active" href="#home">Home</a>
                 </li>
 
                 <li class="nav-item">
-
-                    <a href="#about"
-                       class="nav-link">
-
-                        About
-
-                    </a>
-
+                    <a class="nav-link" href="#expertise">About</a>
                 </li>
 
                 <li class="nav-item">
-
-                    <a href="#services"
-                       class="nav-link">
-
-                        Services
-
-                    </a>
-
+                    <a class="nav-link" href="#experience">Experience</a>
                 </li>
 
                 <li class="nav-item">
-
-                    <a href="#projects"
-                       class="nav-link">
-
-                        Projects
-
-                    </a>
-
+                    <a class="nav-link" href="#services">Services</a>
                 </li>
 
                 <li class="nav-item">
-
-                    <a href="#contact"
-                       class="nav-link">
-
-                        Contact
-
-                    </a>
-
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
-<li class="nav-item ms-3">
 
-    <button id="theme-toggle"
-            class="theme-btn">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
 
-        <i class="fa-solid fa-moon"></i>
-
-    </button>
-
-</li>
             </ul>
 
         </div>
@@ -140,91 +123,332 @@
     </div>
 
 </nav>
-<!-- Hero Section Start -->
 
-<section id="home" class="hero">
+    </header>
+
+    <!-- ==========================
+         Hero Section
+    =========================== -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="container hero-container">
+
+                <!-- Left Content -->
+
+            <div class="hero-content reveal-left">
+
+                    <span class="hero-greeting">
+
+                        👋 Assalamu Alaikum, I'm
+
+                    </span>
+
+                    <h1>
+
+                        MD. Khaled Hassan
+
+                    </h1>
+
+                    <h2>
+
+                        Backend & API Specialist
+
+                    </h2>
+
+                    <p class="hero-description">
+
+                        Senior Software Engineer with 7+ years of experience
+                        building enterprise web applications using Laravel,
+                        ASP.NET MVC, REST APIs, and modern backend technologies.
+                        Currently expanding expertise in Application Security
+                        and Web Penetration Testing.
+
+                    </p>
+
+                    <!-- Status -->
+
+                    <div class="hero-status">
+
+                        <span class="status-dot"></span>
+
+                        Available for Remote Contract
+
+                    </div>
+
+                    <!-- Buttons -->
+
+                    <div class="hero-buttons">
+
+                        <a href="assets/files/MD-Khaled-Hassan-CV.pdf"
+                            class="btn btn-primary"
+                            download>
+
+                            Download Resume
+
+                        </a>
+
+                        <a href="#contact"
+                            class="btn btn-outline">
+
+                            Contact Me
+
+                        </a>
+
+                    </div>
+
+                    <!-- Tech Stack -->
+
+
+
+            <div class="tech-stack">
+
+                <div class="tech-item">
+                    <img src="assets/images/tech/laravel.svg" alt="Laravel">
+                    <span>Laravel</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/images/tech/dotnet.svg" alt=".NET">
+                    <span>.NET</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/images/tech/php.svg" alt="PHP">
+                    <span>PHP</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/images/tech/sqlserver.svg" alt="SQL Server">
+                    <span>SQL Server</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/images/tech/javascript.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+
+                    <!-- Social -->
+
+                    <div class="hero-social">
+
+                        <a href="https://github.com/mdkhaledhassan859"
+                            target="_blank"
+                            aria-label="GitHub">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a href="https://linkedin.com/in/khaled-hassan-1a9658167"
+                            target="_blank"
+                            aria-label="LinkedIn">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+                        <a href="mailto:mdkhaledhassan859@gmail.com"
+                            aria-label="Email">
+
+                            <i class="fas fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+ 
+                    <div class="hero-image reveal-right">
+
+    <div class="image-bg"></div>
+
+    <img src="assets/images/profile.png"
+         alt="MD. Khaled Hassan">
+
+    <!-- Experience -->
+
+    <div class="floating-card card-1">
+
+        <div class="card-icon">
+            <i class="fa-solid fa-briefcase"></i>
+        </div>
+
+        <div>
+
+            <h4>7+</h4>
+
+            <p>Years Experience</p>
+
+        </div>
+
+    </div>
+
+    <!-- Projects -->
+
+    <div class="floating-card card-2">
+
+        <div class="card-icon blue">
+
+            <i class="fa-solid fa-code"></i>
+
+        </div>
+
+        <div>
+
+            <h4>50+</h4>
+
+            <p>Projects</p>
+
+        </div>
+
+    </div>
+
+    <!-- Security -->
+
+    <div class="floating-card card-3">
+
+        <div class="card-icon green">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+        </div>
+
+        <div>
+
+            <h4>Application</h4>
+
+            <p>Security</p>
+
+        </div>
+
+    </div>
+
+    <!-- Cisco -->
+
+    <div class="floating-card card-4">
+
+        <div class="card-icon purple">
+
+            <i class="fa-solid fa-certificate"></i>
+
+        </div>
+
+        <div>
+
+            <h4>Cisco</h4>
+
+            <p>Ethical Hacker</p>
+
+        </div>
+
+    </div>
+
+    <!-- RHCSA -->
+
+    <div class="floating-card card-5">
+
+        <div class="card-icon orange">
+
+            <i class="fa-brands fa-linux"></i>
+
+        </div>
+
+        <div>
+
+            <h4>RHCSA</h4>
+
+            <p>Certified</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </section>
+
+<!-- =========================
+     Statistics Section
+========================== -->
+
+<section class="stats-section">
 
     <div class="container">
 
-        <div class="row align-items-center min-vh-100">
+        <div class="stats-grid">
 
-            <!-- Left Side -->
+            <div class="stat-card">
 
-            <div class="col-lg-7">
+                <div class="stat-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
 
-                <span class="availability">
+                <div>
 
-                    <i class="fa-solid fa-circle-check"></i>
+                    <h2>7+</h2>
 
-                    Available for Remote Contract
-
-                </span>
-
-                <h4 class="greeting mt-4">
-
-                    Hello, I'm
-
-                </h4>
-
-                <h1 class="hero-title">
-
-                    MD. Khaled Hassan
-
-                </h1>
-
-                <h2 class="hero-subtitle">
-
-                    Senior Software Engineer
-
-                </h2>
-
-                <h3 class="hero-role">
-
-                    Backend & API Specialist |
-                    Application Security
-
-                </h3>
-
-                <p class="hero-description">
-
-                    I build scalable enterprise web applications,
-                    secure REST APIs, and maintain Laravel & ASP.NET
-                    systems. Currently focusing on Application Security,
-                    Secure Code Review, and API Security.
-
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#contact" class="btn btn-success btn-lg">
-
-                        <i class="fa-solid fa-paper-plane"></i>
-
-                        Hire Me
-
-                    </a>
-
-                    <a href="assets/files/Khaled_Hassan_CV.pdf"
-                       class="btn btn-outline-light btn-lg ms-3"
-                       target="_blank">
-
-                        <i class="fa-solid fa-download"></i>
-
-                        Download CV
-
-                    </a>
+                    <p>Years Experience</p>
 
                 </div>
 
             </div>
 
-            <!-- Right Side -->
+            <div class="stat-card">
 
-            <div class="col-lg-5 text-center">
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-code"></i>
+                </div>
 
-                <img src="assets/images/profile.png"
-                     class="img-fluid hero-image"
-                     alt="Khaled Hassan">
+                <div>
+
+                    <h2>50+</h2>
+
+                    <p>Projects Completed</p>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div>
+
+                    <h2>50K+</h2>
+
+                    <p>Users Impacted</p>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon yellow">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+
+                <div>
+
+                    <h2>5</h2>
+
+                    <p>Certifications</p>
+
+                </div>
 
             </div>
 
@@ -234,27 +458,486 @@
 
 </section>
 
-<!-- Hero Section End -->
-
-<!-- =========================
-        ABOUT SECTION
+                    <!-- ==========================
+     Core Expertise
 ========================== -->
 
-<section id="about" class="about section-padding">
+<section id="expertise" class="expertise">
 
     <div class="container">
 
-        <div class="row align-items-center">
+        <div class="section-title reveal">
+
+            <h2>Core Expertise</h2>
+
+            <p>
+                Technologies and areas where I deliver value.
+            </p>
+
+        </div>
+
+        <div class="expertise-grid">
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+                <p>Laravel, ASP.NET MVC, .NET Core</p>
+            </div>
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>REST API</h3>
+                <p>API Design, Integration & Authentication</p>
+            </div>
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Application Security</h3>
+                <p>OWASP Top 10 & Secure Development</p>
+            </div>
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database</h3>
+                <p>SQL Server, MySQL</p>
+            </div>
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-server"></i>
+                <h3>Server</h3>
+                <p>Linux, Apache, IIS</p>
+            </div>
+
+            <div class="expertise-card reveal-scale">
+                <i class="fa-solid fa-bug"></i>
+                <h3>Security Testing</h3>
+                <p>Burp Suite, Nmap, Wireshark</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+     Experience
+========================== -->
+
+<section id="experience" class="experience">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <h2>Professional Experience</h2>
+
+            <p>
+                My software engineering journey over the years.
+            </p>
+
+        </div>
+
+        <div class="timeline">
+
+            <!-- Item -->
+
+            <div class="timeline-item reveal-left">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2025 - Present
+
+                    </span>
+
+                    <h3>
+
+                        Application Security Intern
+
+                    </h3>
+
+                    <h4>
+
+                        TechDefender Hub
+
+                    </h4>
+
+                    <p>
+
+                        Learning Web Application Security,
+                        Vulnerability Assessment,
+                        OWASP Top 10,
+                        Burp Suite and Secure SDLC.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Item -->
+
+            <div class="timeline-item reveal-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2020 - 2026
+
+                    </span>
+
+                    <h3>
+
+                        Senior Software Engineer
+
+                    </h3>
+
+                    <h4>
+
+                        PSOFT
+
+                    </h4>
+
+                    <p>
+
+                        Built enterprise applications,
+                        REST APIs,
+                        Payment Gateway Integrations,
+                        SQL Server solutions
+                        and backend architecture.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Item -->
+
+            <div class="timeline-item reveal-left">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2019 - 2020
+
+                    </span>
+
+                    <h3>
+
+                        Junior Software Engineer
+
+                    </h3>
+
+                    <h4>
+
+                        Addie Soft Ltd.
+
+                    </h4>
+
+                    <p>
+
+                        Developed business applications
+                        using Laravel,
+                        JavaScript,
+                        MSSQL and REST APIs.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Item -->
+
+            <div class="timeline-item reveal-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2019
+
+                    </span>
+
+                    <h3>
+
+                        Data Engineer
+
+                    </h3>
+
+                    <h4>
+
+                        Data Digerati Ltd.
+
+                    </h4>
+
+                    <p>
+
+                        Worked on SQL,
+                        data processing,
+                        reporting
+                        and database management.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+     Projects
+========================== -->
+<section id="projects" class="projects">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+            <h2>Featured Projects</h2>
+            <p>
+                Enterprise applications I have designed and developed.
+            </p>
+        </div>
+
+        <article class="project-card reveal">
+
+            <div class="project-image">
+
+                <img src="assets/images/projects/payment-platform.jpg"
+                     alt="Payment Collection Platform">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Enterprise Application
+
+                </span>
+
+                <h3>
+
+                    Payment Collection Platform
+
+                </h3>
+
+                <p>
+
+                    Developed a centralized payment collection system for educational
+                    institutions with secure payment gateway integration,
+                    transaction management, SMS notifications and reporting.
+
+                </p>
+
+                <div class="project-stack">
+
+                    <span>Laravel</span>
+                    <span>REST API</span>
+                    <span>MySQL</span>
+                    <span>Bootstrap</span>
+
+                </div>
+
+                <h4>Key Features</h4>
+
+                <ul>
+
+                    <li>Payment Gateway Integration</li>
+
+                    <li>Collection Dashboard</li>
+
+                    <li>SMS Notification</li>
+
+                    <li>Financial Reports</li>
+
+                    <li>User Management</li>
+
+                </ul>
+
+                <div class="project-buttons">
+
+                    <a href="#"
+                       class="btn btn-primary">
+
+                        Case Study
+
+                    </a>
+
+                    <a href="#"
+                       class="btn btn-outline">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     Security
+========================== -->
+<section id="security" class="security">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <h2>Application Security Journey</h2>
+
+            <p>
+                My ongoing learning and hands-on practice in web application security.
+            </p>
+
+        </div>
+
+        <div class="security-grid">
+
+            <div class="security-card reveal-scale">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>OWASP Top 10</h3>
+
+                <p>
+                    Learning common web vulnerabilities including
+                    SQL Injection, XSS, CSRF, SSRF,
+                    Authentication and Access Control issues.
+                </p>
+
+            </div>
+
+            <div class="security-card reveal-scale">
+
+                <i class="fa-solid fa-user-secret"></i>
+
+                <h3>PortSwigger Academy</h3>
+
+                <p>
+                    Hands-on practice through interactive
+                    Web Security Academy labs.
+                </p>
+
+            </div>
+
+            <div class="security-card reveal-scale">
+
+                <i class="fa-solid fa-terminal"></i>
+
+                <h3>TryHackMe</h3>
+
+                <p>
+                    Practical exercises on Linux,
+                    Networking,
+                    Enumeration and Web Security.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     Contact
+========================== -->
+
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <h2>Let's Work Together</h2>
+
+            <p>
+
+                I'm currently available for remote contract work,
+                backend development and application security projects.
+
+            </p>
+
+        </div>
+
+        <div class="contact-wrapper">
 
             <!-- Left -->
 
-            <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="contact-info reveal-left">
 
-                <div class="about-image">
+                <h3>
 
-                    <img src="assets/images/profile.png"
-                         class="img-fluid rounded-4"
-                         alt="Khaled Hassan">
+                    Get In Touch
+
+                </h3>
+
+                <p>
+
+                    If you have a project, freelance opportunity
+                    or collaboration idea, feel free to contact me.
+
+                </p>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+
+                        mdkhaledhassan859@gmail.com
+
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <a href="https://linkedin.com/in/khaled-hassan-1a9658167"
+                       target="_blank">
+
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <a href="https://github.com/mdkhaledhassan859"
+                       target="_blank">
+
+                        GitHub
+
+                    </a>
 
                 </div>
 
@@ -262,213 +945,69 @@
 
             <!-- Right -->
 
-            <div class="col-lg-7">
+            <form class="contact-form reveal-right">
 
-                <span class="section-subtitle">
+                <input type="text"
+                       placeholder="Your Name"
+                       required>
 
-                    ABOUT ME
+                <input type="email"
+                       placeholder="Email Address"
+                       required>
 
-                </span>
+                <input type="text"
+                       placeholder="Subject">
 
-                <h2 class="section-title">
+                <textarea rows="6"
+                          placeholder="Write your message..."></textarea>
 
-                    Building Software.<br>
-                    Securing Applications.
+                <button class="btn btn-primary">
 
-                </h2>
+                    Send Message
 
-                <p>
+                </button>
 
-                    I'm MD. Khaled Hassan, a Senior Software Engineer with
-                    7+ years of experience developing enterprise web
-                    applications, REST APIs, payment gateway integrations,
-                    and business automation solutions.
-
-                </p>
-
-                <p>
-
-                    My current focus is Application Security, Secure
-                    Software Development, API Security, and Secure Code
-                    Review while continuing to help businesses maintain
-                    and improve Laravel and ASP.NET applications.
-
-                </p>
-
-                <div class="row mt-4">
-
-                    <div class="col-md-6">
-
-                        <ul class="about-list">
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                7+ Years Experience
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Laravel Development
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                ASP.NET Development
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <ul class="about-list">
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                REST API Development
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Application Security
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Secure Code Review
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
+            </form>
 
         </div>
 
     </div>
 
 </section>
-<!-- =========================
-        EXPERIENCE
-========================== -->
-
-<section id="experience" class="experience section-padding">
+<footer class="footer">
 
     <div class="container">
 
-        <div class="text-center mb-5">
+        <p>
 
-            <span class="section-subtitle">
-                EXPERIENCE
-            </span>
+            © 2026 MD. Khaled Hassan
 
-            <h2 class="section-title">
-                Professional Journey
-            </h2>
+        </p>
 
-        </div>
+        <p>
 
-        <div class="timeline">
+            Backend Engineer • Application Security Enthusiast
 
-            <!-- Item 1 -->
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-date">
-                        Oct 2020 - Present
-                    </span>
-
-                    <h4>
-                        Senior Software Engineer
-                    </h4>
-
-                    <h6>
-                        PSOFT
-                    </h6>
-
-                    <p>
-                        Developed enterprise applications,
-                        REST APIs, payment gateway integrations,
-                        and maintained scalable business solutions.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Item 2 -->
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-date">
-                        Sep 2019 - Sep 2020
-                    </span>
-
-                    <h4>
-                        Software Engineer
-                    </h4>
-
-                    <h6>
-                        Addie Soft Ltd.
-                    </h6>
-
-                    <p>
-                        Built business applications,
-                        backend modules,
-                        and optimized existing systems.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Item 3 -->
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-date">
-                        Feb 2019 - Aug 2019
-                    </span>
-
-                    <h4>
-                        Data Engineer
-                    </h4>
-
-                    <h6>
-                        Data Digerati Ltd.
-                    </h6>
-
-                    <p>
-                        Worked on data processing,
-                        database solutions,
-                        and reporting systems.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
+        </p>
 
     </div>
 
-</section>
+</footer>
+
+    </main>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/counter.js"></script>
+
 </body>
-<script src="assets/js/navbar.js"></script>
+
 </html>

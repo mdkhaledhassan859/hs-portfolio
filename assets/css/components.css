@@ -55,3 +55,61 @@
 .menu-toggle{
     display:none;
 }
+
+/* Sticky Navbar */
+
+.navbar {
+    transition: all .3s ease;
+}
+
+.navbar.scrolled {
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding-top:100px;
+}
+
+.hero-container{
+    display:grid;
+    grid-template-columns:1fr 450px;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    font-weight:700;
+    margin:15px 0;
+}
+
+.hero-content h2{
+    color:var(--primary);
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.hero-description{
+    max-width:650px;
+    margin-bottom:30px;
+    color:var(--text-secondary);
+}
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:380px;
+    border-radius:20px;
+}
