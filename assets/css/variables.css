@@ -1,38 +1,39 @@
-/* ==========================
-   Dark Theme (Default)
-========================== */
+:root{
 
-:root {
+    /* Primary */
 
-    --primary: #22C55E;
-    --primary-dark: #16A34A;
+    --primary:#22C55E;
 
-    --background: #0F172A;
-    --surface: #1E293B;
+    --primary-dark:#16A34A;
 
-    --text: #F8FAFC;
-    --text-secondary: #94A3B8;
+    /* Secondary */
 
-    --border: rgba(255,255,255,.08);
+    --secondary:#38BDF8;
 
-    --shadow: 0 10px 30px rgba(0,0,0,.20);
+    /* Background */
 
-}
+    --bg:#0F172A;
 
-/* ==========================
-   Light Theme
-========================== */
+    --surface:#1E293B;
 
-body[data-theme="light"] {
+    --surface-light:#334155;
 
-    --background: #F8FAFC;
-    --surface: #FFFFFF;
+    /* Text */
 
-    --text: #0F172A;
-    --text-secondary: #475569;
+    --text:#F8FAFC;
 
-    --border: rgba(15,23,42,.08);
+    --text-muted:#CBD5E1;
 
-    --shadow: 0 10px 25px rgba(15,23,42,.08);
+    /* Border */
+
+    --border:#334155;
+
+    /* Radius */
+
+    --radius:16px;
+
+    /* Shadow */
+
+    --shadow:0 15px 40px rgba(0,0,0,.25);
 
 }
