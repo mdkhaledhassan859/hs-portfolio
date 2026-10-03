@@ -1,0 +1,190 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    padding: 18px 0;
+
+    background: rgba(10,16,28,.72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-bottom: 1px solid rgba(255,255,255,.06);
+
+    transition: .35s ease;
+}
+
+.navbar.scrolled{
+
+    background: rgba(15,22,36,.95);
+
+    box-shadow:
+    0 12px 40px rgba(0,0,0,.25);
+
+}
+.navbar-brand{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+.navbar-brand:hover{
+
+    color:#46ff8a;
+
+    transform:scale(1.05);
+
+    text-shadow:
+    0 0 20px rgba(32,214,107,.45);
+
+}
+
+.navbar-brand span{
+
+    color:#20d66b;
+
+}
+.nav-link{
+
+    color:#c9d3df;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    margin-left:28px;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+.nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#20d66b;
+
+    transition:.35s;
+
+}
+
+.nav-link:hover::after,
+
+.nav-link.active::after{
+
+    width:100%;
+
+}
+
+.nav-link:hover{
+
+    color:#fff;
+
+}
+/* Active Menu */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #20d66b !important;
+}
+
+/* Hover */
+.navbar-nav .nav-link:hover {
+    color: #20d66b;
+}
+
+/* ==========================
+   Navbar Brand
+========================== */
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    text-decoration:none;
+}
+
+.brand-logo{
+    width:54px;
+    height:54px;
+    object-fit:contain;
+    transition:.35s;
+    filter:
+        drop-shadow(0 0 8px rgba(32,214,107,.30));
+}
+
+.navbar-brand:hover .brand-logo{
+    transform:rotate(8deg) scale(1.08);
+    filter:
+        drop-shadow(0 0 16px rgba(32,214,107,.65));
+}
+
+.brand-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.15;
+}
+
+.brand-name{
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:.3px;
+}
+
+.brand-role{
+    color:#9ca3af;
+    font-size:12px;
+    font-weight:500;
+    margin-top:3px;
+}
+
+.brand-name:hover{
+    color:#20d66b;
+}
+
+/* Mobile */
+
+@media(max-width:991px){
+
+    .brand-role{
+        display:none;
+    }
+
+    .brand-name{
+        font-size:18px;
+    }
+
+    .brand-logo{
+        width:46px;
+        height:46px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .brand-name{
+        display:none;
+    }
+
+}

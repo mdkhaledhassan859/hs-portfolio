@@ -1,0 +1,570 @@
+/*=========================================
+    PROJECT DETAILS PAGE
+    Author : MD. Khaled Hassan
+==========================================*/
+
+/*==============================
+    Common
+==============================*/
+
+.project-section{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    margin-bottom:40px;
+
+}
+
+.section-title span{
+
+    color:#00d084;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.section-title h2{
+
+    color:#ffffff;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-top:10px;
+
+}
+
+.project-section p{
+
+    color:#bfc8d8;
+
+    line-height:1.9;
+
+    font-size:16px;
+
+}
+
+/*==============================
+    Hero
+==============================*/
+
+.project-hero{
+
+    padding:180px 0 120px;
+
+    text-align:center;
+
+    background:linear-gradient(
+        135deg,
+        #08111f,
+        #101b2e,
+        #08111f
+    );
+
+}
+
+.project-category{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:rgba(0,208,132,.12);
+
+    border:1px solid rgba(0,208,132,.25);
+
+    color:#00d084;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.project-hero h1{
+
+    color:#fff;
+
+    font-size:58px;
+
+    font-weight:700;
+
+    margin:25px 0;
+
+}
+
+.project-hero p{
+
+    max-width:760px;
+
+    margin:auto;
+
+    color:#bfc8d8;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+/*==============================
+    Tech Tags
+==============================*/
+
+.tech-tags{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:35px;
+
+}
+
+.tech-tags span{
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    background:#172033;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:#d8e3ef;
+
+    transition:.3s;
+
+}
+
+.tech-tags span:hover{
+
+    background:#00d084;
+
+    color:#fff;
+
+    transform:translateY(-4px);
+
+}
+
+/*==============================
+    Buttons
+==============================*/
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-top:45px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-buttons .btn{
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+}
+
+/*==============================
+    Info Cards
+==============================*/
+
+.project-info{
+
+    margin-top:-60px;
+
+    position:relative;
+
+    z-index:10;
+
+}
+
+.info-card{
+
+    background:#172033;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    text-align:center;
+
+    padding:35px 25px;
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00d084;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+
+}
+
+.info-card i{
+
+    font-size:32px;
+
+    color:#00d084;
+
+    margin-bottom:18px;
+
+}
+
+.info-card h5{
+
+    color:#ffffff;
+
+    margin-bottom:12px;
+
+}
+
+.info-card p{
+
+    color:#aeb9ca;
+
+    margin:0;
+
+}
+
+/*==============================
+    Project Content Card
+==============================*/
+
+.content-card{
+
+    background:#172033;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:45px;
+
+    margin-bottom:40px;
+
+}
+
+/*==============================
+    Feature List
+==============================*/
+
+.feature-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    margin-top:35px;
+
+}
+
+.feature-list li{
+
+    list-style:none;
+
+    color:#d8e3ef;
+
+}
+
+.feature-list i{
+
+    color:#00d084;
+
+    margin-right:12px;
+
+}
+
+/*==============================
+    Architecture
+==============================*/
+
+.architecture{
+
+    background:#111b2d;
+
+    border-radius:20px;
+
+    padding:50px;
+
+    text-align:center;
+
+}
+
+/*==============================
+    Gallery
+==============================*/
+
+.project-gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.project-gallery img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+}
+
+.project-gallery img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/*==============================
+    Result Cards
+==============================*/
+
+.result-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.result-card{
+
+    background:#172033;
+
+    text-align:center;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.result-card h2{
+
+    color:#00d084;
+
+    font-size:42px;
+
+}
+
+.result-card p{
+
+    margin:0;
+
+}
+
+/*==============================
+    Next Project
+==============================*/
+
+.next-project{
+
+    background:#101b2e;
+
+    border-radius:24px;
+
+    text-align:center;
+
+    padding:70px 40px;
+
+}
+
+.next-project h2{
+
+    color:#fff;
+
+}
+
+.next-project a{
+
+    margin-top:30px;
+
+}
+
+/*==============================
+    Responsive
+==============================*/
+
+@media(max-width:992px){
+
+.project-hero h1{
+
+font-size:42px;
+
+}
+
+.feature-list{
+
+grid-template-columns:1fr;
+
+}
+
+.result-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.project-gallery{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.project-hero{
+
+padding:150px 0 80px;
+
+}
+
+.project-hero h1{
+
+font-size:34px;
+
+}
+
+.section-title h2{
+
+font-size:32px;
+
+}
+
+.result-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+.hero-buttons .btn{
+
+width:100%;
+
+}
+
+.content-card{
+
+padding:30px;
+
+}
+
+}
+/* Reveal Animation */
+
+.content-card,
+.info-card,
+.result-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.7s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Navbar Scroll */
+
+.navbar.scrolled{
+
+    background:rgba(10,15,25,.95);
+
+    backdrop-filter:blur(14px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+/* Lightbox */
+
+.lightbox{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.85);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+    cursor:pointer;
+
+}
+
+.lightbox img{
+
+    max-width:90%;
+
+    max-height:90%;
+
+    border-radius:15px;
+
+}
+
+
